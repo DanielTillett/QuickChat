@@ -13,6 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // You will need to add your own Parse Application ID & Client Key here!
     [Parse setApplicationId:@""
                   clientKey:@""];
     
