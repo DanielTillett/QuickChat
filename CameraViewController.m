@@ -146,7 +146,6 @@ UIColor *disclosureColor;
             {
                 UISaveVideoAtPathToSavedPhotosAlbum(self.videoFilePath, nil, nil, nil);
             }
-            
         }
     }
     
@@ -288,10 +287,6 @@ UIColor *disclosureColor;
     UIGraphicsEndImageContext();
     
     return resizedImage;
-    
-    
-    
 }
-
 
 @end
